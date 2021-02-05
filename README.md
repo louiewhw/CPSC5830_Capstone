@@ -1,5 +1,7 @@
 # CPSC5830_Capstone
 
+Team 2 - Louie Wong, Rueben Tiow, Lydia Chi
+
 ## Problem Statement
 
 On-time performance plays an important role in airline operations and management since the on-time performance needs to be as efficient as possible to save costs and improve airline productivity.
@@ -13,7 +15,7 @@ Next, we will analyze and build an interactive dashboard that will display these
 
 ## Dataset
 
-Our data requires that both ADSB and Flight schedule datasource to have the 'ICAO' code and departure and arrival times to be able to join the datasets together. The data must also correspond to the exact dates from both datasets, with ample attribute fill-rates.​
+Our data requires that both ADSB and Flight schedule datasource to have the 'ICAO' code and departure and arrival times to be able to join the datasets together. The data must also correspond to the exact dates from both datasets, with ample attribute fill-rates.
 
 **ADSB Observations Dataset: Flight tracking data**
 
