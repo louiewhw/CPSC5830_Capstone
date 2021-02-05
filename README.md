@@ -15,36 +15,31 @@ Next, we will analyze and build an interactive dashboard that will display these
 
 Our data requires that both ADSB and Flight schedule datasource to have the 'ICAO' code and departure and arrival times to be able to join the datasets together. The data must also correspond to the exact dates from both datasets, with ample attribute fill-rates.​
 
-ADSB Observations Dataset: Flight tracking data​
+**ADSB Observations Dataset: Flight tracking data**
 
-Required attributes: ​
+- 'ICAO' Code
 
-'ICAO' Code​
+- 'Gnd' (Grounded)
 
-'Gnd' (Grounded)​
+- 'From' (Departure Airport)
 
-'From' (Departure Airport)​
+- 'To' (Arrival Airport)
 
-'To' (Arrival Airport)​
+- 'Fseen/PosTime' (Actual Departure time & Arrival time)
 
-'Fseen/PosTime' (Actual Departure time & Arrival time)​
+- 'Lat' and 'Long' (Location)
 
-'Lat' and 'Long' (Location)​
 
-​
 
-External Datasource: Flight schedule API (aviation-edge)​
+**External Datasource: Flight schedule API** [aviation-edge](https://aviation-edge.com/premium-api/)
 
-​
 
-Required Attributes:​
+- 'ICAO' Code
 
-'ICAO' Code​
+- From
 
-From​
+- To
 
-To​
+- Departure Time
 
-Departure Time​
-
-Arrival Time
+- Arrival Time
