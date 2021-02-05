@@ -33,6 +33,9 @@ Our data requires that both ADSB and Flight schedule datasource to have the 'ICA
 
 **External Datasource: Flight schedule API** [aviation-edge](https://aviation-edge.com/premium-api/)
 
+(aviation-edge support team)
+
+```Aviation Edge collects flight and airport data from hundreds of sources, including official authorities as well as other established industry partners such as airlines and airports and compiles this data in their extensive database.```
 
 - 'ICAO' Code
 
